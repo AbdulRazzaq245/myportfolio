@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Razzaq - Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Qwigley&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(18, 18, 62);
+
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+
+            list-style: none;
+            margin: 0 23px;
+            text-decoration: none;
+        }
+
+        nav ul a {
+            text-decoration: none;
+            color: rgb(248, 230, 230);
+            transition: .2s;
+        }
+
+        nav ul a:hover {
+            color: white;
+            font-size: 1.1rem;
+        }
+
+        main hr {
+            border: 0;
+            background-color: #9c97f1;
+            height: 1.2px;
+            margin: 40px 84px;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            margin: 50px 0;
+            align-items: center;
+        }
+
+        .firstsection>div {
+            width: 35%
+        }
+
+        .leftsection {
+            font-size: 3rem;
+            margin: 30px 0;
+        }
+
+        .purple {
+            color: rgb(219, 79, 219);
+        }
+
+        #element {
+            color: rgb(219, 79, 219);
+        }
+
+        .secondsection {
+            max-width: 80vh;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondsection h1 {
+            color: white;
+            font-size: 1.9rem;
+
+        }
+
+        .secondsection .box {
+            /*second section ka box*/
+            background: white;
+            width: 160vh;
+            height: 2px;
+            margin: 56px -3px;
+            position: relative;
+            left: -272px;
+            display: flex;
+        }
+
+        .secondsection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0px 100px;
+
+        }
+
+        .text-grey {
+            color: white
+        }
+
+        .fahad {
+            position: relative;
+            left: -275px;
+            /* border: 2px solid yellow;*/
+            max-width: 280px;
+            color: white;
+        }
+
+        .image-top {
+            width: 100px;
+            position: relative;
+            top: -65px;
+            left: -47px;
+        }
+
+        .image-top1 {
+            width: 61px;
+            position: relative;
+            top: -60px;
+            left: -30px;
+        }
+        .image-top2 {
+            width: 61px;
+            position: relative;
+            top: -65px;
+            left: -30px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 75px;
+            width: 150px;
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 86px;
+            color: gray;
+            width: 150px;
+            font-size: 9px;
+        }
+        footer{
+            background-color: #0e0e1a;
+            
+            
+        }
+        .footer{
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+        .footer ul{
+            list-style: none;
+            width: 223px;
+        }
+        .btn{
+            color: rgb(219, 79, 219);
+            background-color: rgb(9, 9, 137);
+            padding: 12px;
+            border-bottom-right-radius: 15px;
+            box-shadow: 2px 2px 5px;
+            font-size: large;
+            cursor: pointer;
+            margin: 5px;
+            transition: 0.2s;
+            
+            
+        }
+        .btn:hover{
+            background-color: rgb(6, 6, 101);
+            font-size: 1.5rem;
+            
+        }
+            
+        
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Abdul Razzaq Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li> <a href="/">Home</a> </li>
+                    <li> <a href="/">About</a></li>
+                    <li> <a href="/">Service</a></li>
+                    <li> <a href="/">Projects</a></li>
+                    <li> <a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main><!-------------------------------firstsection-------------------------------------------->
+        <section class="firstsection">
+            <div class="leftsection">Hi, My name is <span class="purple">Abdul Razzaq</span> and I am a
+                <span id="element"></span>
+                <div class="button">
+                    <button class="btn">Download CV</button>
+                    <button class="btn">Visit Github</button>
+                </div>
+            </div>
+            <div class="rightsection">
+                <img src="implementacion-de-lms-moodle-768x768.png" width="100%" height="100%">
+            </div>
+        </section>
+
+        <hr> <!-------------------------------secondsection-------------------------------------------->
+
+        <section class="secondsection">
+            <div class="fahad"><span class="text-grey">What I have done so far </span>
+                <h1>Work Experience</h1>
+            </div>
+            <div class="box">
+                <!--------------------------------------------------------1---------------------------------------------------------->
+
+                <div class="vertical">
+                    <img class="image-top" src="htmlcssjs.png.png" alt="">
+                    <div class="vertical-title">
+                        HTML Developer 2010-2012
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem nemo odit exercitationem
+                        fugit optio modi eum ratione sed, vel iste maiores deleniti, itaque in quis repudiandae officiis
+                        fuga quae id?
+                    </div>
+                    <!--------------------------------------------------------2---------------------------------------------------------->
+
+                </div>
+                <div class="vertical">
+                    <img class="image-top1" src="react.png.png">
+                    <div class="vertical-title">
+                        HTML Developer 2010-2012
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem nemo odit exercitationem
+                        fugit optio modi eum ratione sed, vel iste maiores deleniti, itaque in quis repudiandae officiis
+                        fuga quae id?
+                    </div>
+                    <!--------------------------------------------------------3---------------------------------------------------------->
+                </div>
+                <div class="vertical">
+                    <img class="image-top2" src="angular.png" alt="">
+                    <div class="vertical-title">
+                        HTML Developer 2010-2012
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem nemo odit exercitationem
+                        fugit optio modi eum ratione sed, vel iste maiores deleniti, itaque in quis repudiandae officiis
+                        fuga quae id?
+                    </div>
+                    <!--------------------------------------------------------4---------------------------------------------------------->
+
+                </div>
+                <div class="vertical">
+                    <img class="image-top2" src="computer-pointer-hand-with-index-finger_160063-17.webp" alt="">
+                    <div class="vertical-title">
+                        HTML Developer 2010-2012
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem nemo odit exercitationem
+                        fugit optio modi eum ratione sed, vel iste maiores deleniti, itaque in quis repudiandae officiis
+                        fuga quae id?
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+        <div class="footer-first">Razzaq Developer Portfolio
+            <h3></h3>
+        </div>
+        <div class="footer-second">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Service</li>
+                <li>contact</li>
+                
+            </ul>
+        </div>
+        <div class="footer-third">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Service</li>
+                <li>contact</li>
+                
+            </ul>
+        </div>
+        <div class="footer-four">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Service</li>
+                <li>contact</li>
+                
+            </ul>
+        </div>
+    </div>
+    <div class="text-center" style="text-align: center; color: rgb(146, 142, 142);">
+        CopyRight &#169; AbdulRazzaqportfolio.com | ALL rights reserved
+    </div>
+    </footer>
+    <!-------------------------------------------script-------------------------------------------->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['passionate Web Developer', 'Web Designer', 'Desktop Engineer', 'and', 'Front-end Developer',],
+            typeSpeed: 100,
+        });
+    </script>
+</body>
+
+</html>
